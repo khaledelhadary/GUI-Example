@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang = en>
+<head>
+    <title>First Website!</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+    
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href = "#home">Home</a></li>
+            <li><a href = "#news">News</a></li>
+            <li><a href = "#contact">Contact</a></li>
+            <li><a href = "#about">About</a></li>
+            <li class="topnav-R"><a href = "#signup">Sign up</a></li>
+            <li class="topnav-R"><a href = "#signin">Sign in</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+        
+    </nav>
+    
+    
+    <div class="container" id="Section-1-Gradient">
+        <div class ="row">
+            <div class = "col-6">
+                <div class="leftSide">
+                    <h1 class="large">Khaled Ezzat</h1>
+                    <h1 class="large">Full Stack Developer</h1>
+                </div>
+                
+                <form class="leftSide">
+                    <h2>Username</h2>
+                    <input class="inputbox" type="text" placeholder="Username" name="username">
+                    <h2>Password</h2> 
+                    <input class="inputbox" type="text" placeholder="Password" name="password">
+                    
+                </form>
+            
+            </div>
+            <div class = "col-6">
+                <div class="rightSide">
+                    <div class="Video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bey4XXJAqS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <header>
+        <h1 class="section2Header">The Standards of GUI</h1>
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="thinking-icon.png">
+                    </div>
+                    <label>Learn</label>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                </div>
+            </div>
+            
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="thinking-icon.png">
+                    </div>
+                    <label>Innovate </label>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.    
+                </div>
+            </div>
+            
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="thinking-icon.png">
+                    </div>
+                    <label>Build</label>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="LearnMore">Learn more</button>
+            </div>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.                  
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-5">
+                <div class="SIcon">
+                    <img src="thinking-icon.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="Main-Footer">
+        <div class="row">
+            <div class="col-3 mobile">
+            <h1>CV</h1>
+            <ul>
+                
+                <li>About</li>
+                <li>Blog</li>
+            </ul>
+            </div>
+            <div class="col-3 mobile">
+            <h1>Products</h1>
+                <ul>
+                    <li>PC</li>
+                    <li>Mobile</li>
+                </ul>
+            </div>
+            <div class="col-3 mobile">
+            <h1>Learn more</h1>
+                <ul>
+                    <li>Developers</li>
+                    <li>Designers</li>
+                </ul>
+            </div>
+            <div class="col-3">
+            <h1>Support</h1>
+                <ul>
+                    <li>Help</li>
+                    <li>Chat with us</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    
+    
+    
+</body>
+
+    
+</html>
